@@ -1,3 +1,4 @@
 <?
-echo"halo nerf"
+$name = "LUQMANURHAKIM";
+echo"Halo,  $name! lagi belajar git nih"
 ?>
