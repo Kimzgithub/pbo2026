@@ -1,4 +1,4 @@
-<?
+<?php
 $name = "LUQMANURHAKIM";
-echo"Halo,  $name! lagi belajar git nih"
+echo"Halo,  $name! lagi belajar git nih";
 ?>
