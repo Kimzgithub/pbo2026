@@ -21,6 +21,7 @@ class Setlingkaran {
     public function luas($jarijari) : float {
         return (1/2)*self::PHI*$jarijari*$jarijari;
     }
+    
     public function keliling($jarijari) : float {
         return self::PHI*$jarijari;
     }
