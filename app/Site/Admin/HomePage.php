@@ -2,6 +2,6 @@
 class HomePage
 {
     function tampil() : void {
-        echo "Halaman depan Admin";
+        echo "Halaman depan Admin test";
     }
 }
