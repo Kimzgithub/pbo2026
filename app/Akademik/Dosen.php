@@ -28,6 +28,7 @@ class Dosen extends Pegawai
         return $this->jumlah_sks * 150000;
     }
 
+    // ini udah ada getter didalam GITHUB bapak, kenapa minta buat lagi?
     public function getNidn(): String
     {
         return $this->nidn;
