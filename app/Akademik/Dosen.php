@@ -6,7 +6,7 @@ use App\Akademik\Pegawai;
 use App\Akademik\PenilaianKinerja;
 use Stringable;
 
-class Dosen extends Pegawai implements PenilaianKinerja
+class Dosen extends Pegawai
 {
     private string $nidn;
     public int $jumlah_sks;

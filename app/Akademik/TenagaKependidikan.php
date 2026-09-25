@@ -6,7 +6,7 @@ use App\Akademik\Pegawai;
 use App\Akademik\PenilaianKinerja;
 use App\Akademik\DapatCuti;
 
-class TenagaKependidikan extends Pegawai implements PenilaianKinerja, DapatCuti
+class TenagaKependidikan extends Pegawai
 {
     public int $gaji_pokok;
 
