@@ -12,3 +12,5 @@ $tendik1->bekerja();
 
 echo "Tunjangan Dosen: " . $dosen1->hitungTunjanganKinerja() . "<br>";
 echo "Tunjangan Tendik: " . $tendik1->hitungTunjanganKinerja() . "<br>";
+
+$tendik1->ajukanCuti(5);
