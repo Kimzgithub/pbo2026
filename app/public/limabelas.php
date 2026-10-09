@@ -9,3 +9,6 @@ $tendik1 = new TenagaKependidikan(201, "Ani Suryani", "0815...", "Jl. Merpati No
 
 $dosen1->bekerja();
 $tendik1->bekerja();
+
+echo "Tunjangan Dosen: " . $dosen1->hitungTunjanganKinerja() . "<br>";
+echo "Tunjangan Tendik: " . $tendik1->hitungTunjanganKinerja() . "<br>";
