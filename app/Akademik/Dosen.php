@@ -1,15 +1,13 @@
 <?php
-
 namespace App\Akademik;
 
 use App\Akademik\Pegawai;
 use App\Akademik\PenilaianKinerja;
-use Stringable;
 
-class Dosen extends Pegawai
+class Dosen extends Pegawai implements PenilaianKinerja
 {
     private string $nidn;
-    public int $jumlah_sks;
+    private int $jumlah_sks;
 
     public function __construct(int $nip, string $nama, string $no_hp, string $alamat, string $nidn)
     {
@@ -20,17 +18,11 @@ class Dosen extends Pegawai
 
     public function bekerja(): void
     {
-        echo $this->nama . " sedang mengajar dan membimbing mahasiswa.<br>";
+        echo "{$this->nama} sedang mengajar dan membimbing mahasiswa.<br>";
     }
 
     public function hitungTunjanganKinerja(): int
     {
         return $this->jumlah_sks * 150000;
-    }
-
-    // ini udah ada getter didalam GITHUB bapak, kenapa minta buat lagi?
-    public function getNidn(): String
-    {
-        return $this->nidn;
     }
 }

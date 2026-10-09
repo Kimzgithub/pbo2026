@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Akademik;
 
 abstract class Pegawai
@@ -21,6 +20,6 @@ abstract class Pegawai
 
     public function cekIn(): void
     {
-        echo $this->nama . " berhasil cek in.<br>";
+        echo "{$this->nama} berhasil cek in.<br>";
     }
 }
