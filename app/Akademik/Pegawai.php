@@ -22,4 +22,8 @@ abstract class Pegawai
     {
         echo "{$this->nama} berhasil cek in.<br>";
     }
+
+    public function getNoHp() : string {
+        return $this->no_hp;
+    }
 }
