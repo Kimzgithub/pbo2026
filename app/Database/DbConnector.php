@@ -9,7 +9,7 @@ class DbConnector
 {
     private static ?PDO $instance = null;
     private const DB_HOST = 'localhost';
-    private const DB_NAME = 'pbo2025';
+    private const DB_NAME = 'pbo2026';
     private const DB_USER = 'root';
     private const DB_PASS = '';
     public static function connect(): PDO
